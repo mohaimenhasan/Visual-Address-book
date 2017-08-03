@@ -28,6 +28,8 @@ public:
 	birthday();
 	birthday(int b_day, int b_month, int b_year);
 	~birthday();
+	void default_bday();
+	void add_birthday(birthday* dateofBirth);
 	
 };
 
